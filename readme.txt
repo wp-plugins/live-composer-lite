@@ -3,7 +3,7 @@ Contributors: LiveComposer
 Tags: page builder, page, modules, front-end, builder, live, composer
 Requires at least: 3.7
 Tested up to: 3.9.1
-Stable tag: trunk
+Stable tag: 1.0
 License: GPLv3
 
 Front-End WordPress Page Builder Plugin.
