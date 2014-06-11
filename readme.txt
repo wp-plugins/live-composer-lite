@@ -14,7 +14,7 @@ Front-End WordPress Page Builder Plugin.
 
 Live Composer is a front-end WordPress page builder plugin. Front-end means you build the page directly on the page, not in the admin panel, which allows you to see exactly how the page will look like as you build it, with live feedback on every change you make.
 
-[youtube http://www.youtube.com/watch?v=7EiKx_WSesk]
+[youtube https://www.youtube.com/watch?v=t_HMvqogDrY]
 
 Make sure you check out the [interactive tutorials](http://livecomposerplugin.com/free-version/tutorial-chapter-one/?dslc=active)
 
