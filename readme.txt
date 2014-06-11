@@ -16,10 +16,10 @@ Live Composer is a front-end WordPress page builder plugin. Front-end means you 
 
 [youtube https://www.youtube.com/watch?v=t_HMvqogDrY]
 
-Make sure you check out the [interactive tutorials](http://livecomposerplugin.com/free-version/tutorial-chapter-one/?dslc=active)
+Make sure you check out the [interactive tutorials](http://bit.ly/1l9SLwl)
 
-> This is a lite version of [Live Composer](http://livecomposerplugin.com/).
-> We will do our best to offer support, but this is a free plugin so it won't be as quick as the support for the [regular version](http://livecomposerplugin.com/).
+> This is a lite version of [Live Composer](http://bit.ly/1knShm3).
+> We will do our best to offer support, but this is a free plugin so it won't be as quick as the support for the [regular version](http://bit.ly/1knShm3).
 
 == Installation ==
 
