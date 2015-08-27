@@ -116,6 +116,26 @@ class DSLC_Button extends DSLC_Module {
 				'section' => 'styling',
 				'ext' => 'px'
 			),
+			array(
+				'label' => __( 'Width', 'dslc_string' ),
+				'id' => 'css_width',
+				'std' => 'inline-block',
+				'type' => 'select',
+				'choices' => array(
+					array(
+						'label' => __( 'Automatic', 'dslc_string' ),
+						'value' => 'inline-block'
+					),
+					array(
+						'label' => __( 'Full Width', 'dslc_string' ),
+						'value' => 'block'
+					),
+				),
+				'refresh_on_change' => false,
+				'affect_on_change_el' => '.dslc-button a',
+				'affect_on_change_rule' => 'display',
+				'section' => 'styling',
+			),
 
 			/**
 			 * Typography

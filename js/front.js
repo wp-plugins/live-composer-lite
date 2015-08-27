@@ -217,6 +217,7 @@ function dslc_carousel() {
  		});
  		jQuery('.dslc-bg-video video').mediaelementplayer({
 			loop: true,
+			pauseOtherPlayers: false,
 			success: function(mediaElement, domObject) {
 
 				mediaElement.addEventListener('loadeddata', function (e) {

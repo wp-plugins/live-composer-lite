@@ -1,9 +1,9 @@
 === Live Composer Lite ( Page Builder ) ===
 Contributors: LiveComposer
 Tags: page builder, page, modules, front-end, builder, live, composer
-Requires at least: 3.7
-Tested up to: 3.9.1
-Stable tag: 1.0
+Requires at least: 3.9
+Tested up to: 4.3
+Stable tag: 1.0.1
 License: GPLv3
 
 Front-End WordPress Page Builder Plugin.
@@ -16,7 +16,7 @@ Live Composer is a front-end WordPress page builder plugin. Front-end means you 
 
 [youtube https://www.youtube.com/watch?v=t_HMvqogDrY]
 
-Make sure you check out the [interactive tutorials](http://livecomposerplugin.com/free-version/tutorial-chapter-one/?dslc=active)
+Make sure you try the [interactive tutorial](http://livecomposerplugin.com/playground/tutorial-chapter-one/?dslc=active) to get familiar with how it works ( It is the tutorial for the full version of the plugin, but it applies to the lite version as well )
 
 > This is a lite version of [Live Composer](http://livecomposerplugin.com/).
 > We will do our best to offer support, but this is a free plugin so it won't be as quick as the support for the [regular version](http://livecomposerplugin.com/).
@@ -24,7 +24,7 @@ Make sure you check out the [interactive tutorials](http://livecomposerplugin.co
 == Installation ==
 
 1. Install and Activate as you would any other plugin
-2. Try the [interactive tutorial](http://livecomposerplugin.com/free-version/tutorial-chapter-one/?dslc=active) to get familiar with how it works
+2. Try the [interactive tutorial](http://livecomposerplugin.com/playground/tutorial-chapter-one/?dslc=active) to get familiar with how it works ( It is the tutorial for the full version of the plugin, but it applies to the lite version as well )
 
 == Frequently Asked Questions ==
 

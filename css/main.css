@@ -711,7 +711,7 @@ body.dslc-res-phone .dslc-col {
 		min-width: 0px;
 	}
 
-	.dslc-modules-section {
+	.dslc-modules-section.dslc-init-parallax {
 		background-attachment: scroll !important;
 		background-position: 0 0 !important;
 	}

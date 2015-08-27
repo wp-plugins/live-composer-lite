@@ -666,7 +666,7 @@ class DSLC_Accordion extends DSLC_Module {
 
 								<div class="dslc-accordion-content">
 									<div class="dslca-editable-content">
-										<?php echo stripslashes( $accordion_content ); ?>
+										<?php echo do_shortcode( stripslashes( $accordion_content ) ); ?>
 									</div>
 									<?php if ( $dslc_is_admin ) : ?>
 										<div class="dslca-wysiwyg-actions-edit"><span class="dslca-wysiwyg-actions-edit-hook">Edit Content</span></div>

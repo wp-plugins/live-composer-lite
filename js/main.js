@@ -342,6 +342,7 @@ function dslc_automatic_width_option( dslcForce ) {
 
 			var modulesSection = jQuery(this);
 
+            modulesSectionAtts = '';
 			jQuery('.dslca-modules-section-settings input', modulesSection).each(function(){
 
 				modulesSectionAtts = modulesSectionAtts + jQuery(this).data('id') + '="' + jQuery(this).val() + '" ';
@@ -2818,6 +2819,13 @@ function dslc_generate_filters() {
 }
 
 jQuery(document).ready(function($) {
+
+	/**
+	* Automatically add a row if empty
+	*/
+
+	if ( ! $('.dslc-modules-section').length )
+		dslc_add_modules_section();	
 
 	// Prevent the backspace key from navigating back.
 	$(document).unbind('keydown').bind('keydown', function (event) {

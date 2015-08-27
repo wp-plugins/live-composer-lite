@@ -19,13 +19,13 @@ function dslc_load_scripts() {
 
 	global $dslc_active;
 
-	wp_enqueue_style( 'dslc-main-css', DS_LIVE_COMPOSER_URL . 'css/main.css');
-	wp_enqueue_style( 'dslc-front-plugins-css', DS_LIVE_COMPOSER_URL . 'css/front/plugins.css');
-	wp_enqueue_style( 'dslc-font-awesome', DS_LIVE_COMPOSER_URL . 'css/font-awesome.css');
-	wp_enqueue_style( 'dslc-modules-css', DS_LIVE_COMPOSER_URL . 'css/modules.css');
+	wp_enqueue_style( 'dslc-main-css', DS_LIVE_COMPOSER_URL . 'css/main.css', array(), DS_LIVE_COMPOSER_VER);
+	wp_enqueue_style( 'dslc-front-plugins-css', DS_LIVE_COMPOSER_URL . 'css/front/plugins.css', array(), DS_LIVE_COMPOSER_VER);
+	wp_enqueue_style( 'dslc-font-awesome', DS_LIVE_COMPOSER_URL . 'css/font-awesome.css', array(), DS_LIVE_COMPOSER_VER);
+	wp_enqueue_style( 'dslc-modules-css', DS_LIVE_COMPOSER_URL . 'css/modules.css', array(), DS_LIVE_COMPOSER_VER);
 	
-	wp_enqueue_script( 'dslc-front-plugins-js', DS_LIVE_COMPOSER_URL . 'js/front-plugins.js', array( 'jquery' ) );
-	wp_enqueue_script( 'dslc-front-js', DS_LIVE_COMPOSER_URL . 'js/front.js', array( 'jquery' ) );
+	wp_enqueue_script( 'dslc-front-plugins-js', DS_LIVE_COMPOSER_URL . 'js/front-plugins.js', array( 'jquery' ), DS_LIVE_COMPOSER_VER );
+	wp_enqueue_script( 'dslc-front-js', DS_LIVE_COMPOSER_URL . 'js/front.js', array( 'jquery' ), DS_LIVE_COMPOSER_VER );
 	wp_localize_script( 'dslc-front-js', 'DSLCAjax', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
 	
 	// Check if the user can work with composer
@@ -35,8 +35,8 @@ function dslc_load_scripts() {
 		
 		// CSS
 		wp_enqueue_style( 'jquery-ui-slider' );
-		wp_enqueue_style( 'dslc-composer-css', DS_LIVE_COMPOSER_URL . 'css/composer.css');
-		wp_enqueue_style( 'dslc-plugins-css', DS_LIVE_COMPOSER_URL . 'css/plugins.css');
+		wp_enqueue_style( 'dslc-composer-css', DS_LIVE_COMPOSER_URL . 'css/composer.css', array(), DS_LIVE_COMPOSER_VER);
+		wp_enqueue_style( 'dslc-plugins-css', DS_LIVE_COMPOSER_URL . 'css/plugins.css', array(), DS_LIVE_COMPOSER_VER);
 
 		// JavaScript
 		wp_enqueue_script( 'jquery-ui-core' );
@@ -47,8 +47,8 @@ function dslc_load_scripts() {
 		wp_enqueue_script( 'jquery-ui-slider' );
 		wp_enqueue_script( 'wp-color-picker' );
 		wp_enqueue_script( 'dslc-load-fonts', 'http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js' );
-		wp_enqueue_script( 'dslc-plugins-js', DS_LIVE_COMPOSER_URL . 'js/plugins.js', array( 'jquery' ) );
-		wp_enqueue_script( 'dslc-main-js', DS_LIVE_COMPOSER_URL . 'js/main.js', array( 'jquery' ) );
+		wp_enqueue_script( 'dslc-plugins-js', DS_LIVE_COMPOSER_URL . 'js/plugins.js', array( 'jquery' ), DS_LIVE_COMPOSER_VER );
+		wp_enqueue_script( 'dslc-main-js', DS_LIVE_COMPOSER_URL . 'js/main.js', array( 'jquery' ), DS_LIVE_COMPOSER_VER );
 		wp_localize_script( 'dslc-main-js', 'DSLCAjax', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
 
 	}
@@ -64,11 +64,11 @@ function dslc_load_scripts() {
 
 function dslc_load_admin_scripts() {
 
-	wp_enqueue_script( 'dslc-post-options-js-admin', DS_LIVE_COMPOSER_URL . 'includes/post-options-framework/js/main.js', array( 'jquery' ) );
-	wp_enqueue_style( 'dslc-post-options-css-admin', DS_LIVE_COMPOSER_URL . 'includes/post-options-framework/css/main.css');
+	wp_enqueue_script( 'dslc-post-options-js-admin', DS_LIVE_COMPOSER_URL . 'includes/post-options-framework/js/main.js', array( 'jquery' ), DS_LIVE_COMPOSER_VER );
+	wp_enqueue_style( 'dslc-post-options-css-admin', DS_LIVE_COMPOSER_URL . 'includes/post-options-framework/css/main.css', array(), DS_LIVE_COMPOSER_VER );
 
-	wp_enqueue_script( 'dslc-plugin-options-js-admin', DS_LIVE_COMPOSER_URL . 'includes/plugin-options-framework/js/main.js', array( 'jquery' ) );
-	wp_enqueue_style( 'dslc-plugin-options-css-admin', DS_LIVE_COMPOSER_URL . 'includes/plugin-options-framework/css/main.css');
+	wp_enqueue_script( 'dslc-plugin-options-js-admin', DS_LIVE_COMPOSER_URL . 'includes/plugin-options-framework/js/main.js', array( 'jquery' ), DS_LIVE_COMPOSER_VER );
+	wp_enqueue_style( 'dslc-plugin-options-css-admin', DS_LIVE_COMPOSER_URL . 'includes/plugin-options-framework/css/main.css', array(), DS_LIVE_COMPOSER_VER );
 
 } add_action( 'admin_init', 'dslc_load_admin_scripts' );
 

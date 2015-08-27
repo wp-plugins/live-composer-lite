@@ -632,7 +632,7 @@ class DSLC_Tabs extends DSLC_Module {
 							<div class="dslc-tabs-tab-content">
 								<h4 class="dslc-tabs-nav-hook"><?php echo $tabs_nav[$count]; ?></h4>
 								<div class="dslca-editable-content">
-									<?php echo stripslashes( $tab_content ); ?>
+									<?php echo do_shortcode( stripslashes( $tab_content ) ); ?>
 								</div>
 								<?php if ( $dslc_is_admin ) : ?>
 									<div class="dslca-wysiwyg-actions-edit"><span class="dslca-wysiwyg-actions-edit-hook">Edit Content</span></div>

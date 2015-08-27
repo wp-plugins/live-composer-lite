@@ -4,7 +4,7 @@
 	Plugin URI: http://www.livecomposerplugin.com/free-version
 	Description: Live Composer - Live front-end page builder.
 	Author: DanyDuchaine
-	Version: 1.0
+	Version: 1.0.1
 	Author URI: http://danyduchaine.com
 	License: GPL v3
 */
@@ -14,6 +14,8 @@
 		/**
 		 * Constants
 		 */
+
+		define( 'DS_LIVE_COMPOSER_VER', '1.0.1' );
 
 		define( 'DS_LIVE_COMPOSER_URL', plugin_dir_url( __FILE__ ) );
 		define( 'DS_LIVE_COMPOSER_DIR_NAME', dirname( plugin_basename( __FILE__ ) ) );

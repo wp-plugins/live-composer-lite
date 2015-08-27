@@ -59,6 +59,19 @@ class DSLC_Separator extends DSLC_Module {
 				),
 				'section' => 'styling',
 			),
+			array(
+				'label' => __( 'Thickness', 'dslc_string' ) ,
+				'id' => 'thickness',
+				'std' => '1',
+				'type' => 'slider',
+				'refresh_on_change' => false,
+				'affect_on_change_el' => '.dslc-separator',
+				'affect_on_change_rule' => 'border-width',
+				'ext' => 'px',
+				'min' => 1,
+				'max' => 50,
+				'section' => 'styling',
+			),
 
 			/**
 			 * Responsive Tablet
